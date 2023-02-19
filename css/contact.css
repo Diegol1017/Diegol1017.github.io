@@ -1,0 +1,42 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+.contact-body {
+    background-color: var(--primary-color);
+    color: var(--text-color-inverse);
+    }
+
+.wave {
+    width: 100%;
+    position: relative;
+    top: 2px;
+  }
+
+  .icon {
+    text-align: center;
+    font-size: 30px;
+    margin: 25px;
+    
+  }
+  
+  .text {
+    text-align: center;
+    font-size: 20px;
+    color: var(--text-color-inverse);
+    cursor:pointer;
+  }
+  
+  @media(min-width: 950px) {
+
+    .title {
+      font-size: 40px;
+    }
+    
+    .icon {
+      font-size: 20px;
+      margin: 20px;
+    }
+  }

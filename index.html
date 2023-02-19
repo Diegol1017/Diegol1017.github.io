@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CV</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!--<link href="css/bootstrap.min.css" rel="style"/>-->
+
+    <!--<link rel="stylesheet" type=text/css href="css/style.css"/>   -->
+    <link rel="stylesheet" href="css/main.css" />    
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/Skills.css">
+    <link rel="stylesheet" href="css/experiencies.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+    <script defer src="js/app.js"></script>
+</head>
+<body>
+    <header class="topheader">
+        <nav class="topnav">
+                
+            <button class="open-menu" aria-label="Abrir menú">
+                <img src="img/hamburger-icon.svg" alt="abrir menú" />
+            </button>
+            <ul class="menu">
+                <button class="close-menu" aria-label="Cerrar menú">
+                  <img src="img/close-icon.svg" alt="cerrar menú" />
+                </button>
+                <li><a href="#profile" class="selected">Perfil</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#skills">Habilidades</a></li>      
+                <li><a href="#contact">Contacto</a></li>          
+            </ul>
+         </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="profile" id="profile">
+        <span class="profile-img-section">
+            <img class="profile-img" src="img/Perfil1.jpg" alt="foto-perfil" alt="programador"/>
+            <div class="profile-img-line"></div>
+          </span>
+
+        <div class="profile-info">
+          <h1 class="profile-title">Diego Garita</h1>
+            <p class="profile-details">
+              Soy una persona que posee facilidad para trabajo en equipo en oficina y campo, facilidad de aprendizaje,
+              dinamico y proactivo . 
+              Estoy dispuesto siempre a aprender y a cumplir mis objetivos en la parte personal y laboral.
+              Los obstáculos que he enfrentado en mi vida personal y profesional me han impulsado a desarrollar mis fortalezas, de las cuales, las más destacadas son: la persistencia para obtener los resultados deseados, aceptar retos, competencia, empatía, habilidades administrativas, trabajo en equipo, trabajo bajo presión, liderazgo y manejo de personal.
+
+            </p>         
+        </div>
+    </section>
+    </div>
+
+    <section class="experiences" id="experience">
+        <img src="img/wave.svg" alt="división" class="wave" />
+        <div class="experiences-body">
+          <h2 class="experiences-title">Experiencia</h2>
+          <div class="experiences-grid">
+            <div class="empty"></div>
+            <div class="line"></div>
+            <div class="experience">
+              <div class="experience-date">2020-2022</div>
+              <div class="experience-company">Mercaderia Libre</div>
+              <div class="experience-position">Analista Programador</div>
+              <div class="experience-description">
+                Desarrollo de la interfaz y el back-end de un SaaS usado por
+                cientos de clientes para desplegar anuncios a escala. Usamos
+                React.js, TypeScript, Cypress, Node.js, Serverless y la
+                infraestructura de AWS (entre otras tecnologías).
+              </div>
+            </div>
+            <div class="experience experience_left">
+              <div class="experience-date">2017-2020</div>
+              <div class="experience-company">Mundo Software</div>
+              <div class="experience-position">Programador Senior</div>
+              <div class="experience-description">
+                Implementación de una nueva versión de la plataforma que permite
+                de forma inteligente emparejar estudiantes con instituciones
+                educativas. Usamos tecnologías como React.js, GraphQL,
+                ElasticSearch, Node.js y otras que nos permitieron lograr una
+                mejora notable en el rendimiento de la plataforma.
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="line"></div>
+            <div class="experience">
+              <div class="experience-date">2016-2017</div>
+              <div class="experience-company">Plataform</div>
+              <div class="experience-position">Analista Programador</div>
+              <div class="experience-description">
+                Desarrollado de soluciones para un cliente en la industia
+                inmobiliaria.
+                Implementamos una arquitectura desacoplada usando .Net para el
+                back-end y React.js en el front-end. 
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="img/wave.svg" alt="división" class="wave wave_bottom" />
+    </section>
+
+    <div class="horizontal-padding vertical-padding">
+            <section class="skills" id="skills">
+              <h2 class="skills-title">Habilidades</h2>
+              <ul class="skills-list">
+                <li class="skills-skill">CSS</li>
+                <li class="skills-skill">HTML</li>
+                <li class="skills-skill">Node.js</li>
+                <li class="skills-skill">React.js</li>
+                <li class="skills-skill">Phyton</li>
+                <li class="skills-skill">JavaScript</li>
+              </ul>
+            </section>
+    </div>
+      
+        <section class="contact" id="contact">
+          <img src="img/wave.svg" alt="división" class="wave" />
+            
+          <div class="experiences-body">
+                <div class="contact">
+                  <h2 class="experiences-title">Contacto</h2>
+                    <ul style="list-style: none;">
+                        <li>
+                            <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                            <div class="text"> Tucuman 311, Cordoba</div>
+                        </li>
+                        <li>
+                            <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                            <div class="text">+54 351 2073534</div>
+                        </li>
+                        <li>
+                            <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                            <div class="text">dgarita@gmail.com</div>
+                        </li>
+                        <li>
+                            <div class="icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
+                            <div class="text">www.mywebsite.com</div>
+                        </li>
+                        <li>
+                            <div class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+                            <div class="text"> www.linkedin.com/sgarcia</div>
+                        </li>
+                    </ul>
+                </div>
+          </div>
+        </section>
+  
+  </body>
+</html>
